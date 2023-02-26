@@ -1,0 +1,49 @@
+.postItem-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.postItem-thumbnail {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 0.8rem;
+}
+
+.postItem-title {
+  min-height: 3rem;
+  margin: 0.5rem 0;
+  flex: 1;
+}
+
+.postItem-content {
+  position: relative;
+  max-height: 45px;
+  overflow: hidden;
+  font-size: 0.8rem;
+  color: #a9a9a9;
+}
+
+.postItem-wrapper footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.postItem-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.postItem-author {
+  margin-bottom: 0.8rem;
+}
+
+.postItem-author p {
+  font-size: 0.6rem;
+  color: #a9a9a9;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
